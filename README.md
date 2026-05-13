@@ -285,13 +285,15 @@ The embedded domain used branding-related naming intended to resemble a legitima
 |---|---|
 | blog1seguimentmydomaine2bra.me | No malicious detections found |
 
-### Threat Intelligence Sources Used
+### Threat Intelligence Sources and Tools Used
 
 - VirusTotal
 - URLScan
 - IpInfo
 - ip2location
 - WHOIS review
+- EML analyzer
+- Message Header Analyzer
 
 ### Observation
 
