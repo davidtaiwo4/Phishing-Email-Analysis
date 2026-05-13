@@ -2,9 +2,9 @@
 
 ## Overview
 
-This project demonstrates the analysis of a phishing email designed to impersonate Banco Bradesco and Livelo reward services. The objective was to identify Indicators of Compromise (IOCs), analyze email headers, inspect sender infrastructure, and determine the malicious intent of the message.
+This project demonstrates the analysis of a phishing email designed to impersonate Banco Bradesco and Livelo reward services. The objective was to identify Indicators of Compromise (IOCs), analyze email headers, inspect sender infrastructure and determine the malicious intent of the message.
 
-The investigation involved email header analysis, URL inspection, sender verification, and phishing detection techniques commonly used in Security Operations Center (SOC) environments.
+The investigation involved email header analysis, URL inspection, sender verification and phishing detection techniques commonly used in Security Operations Center (SOC) environments.
 
 ---
 
@@ -32,7 +32,7 @@ Main Text (Top Section):
 - You have Livelo Points with your Banco do Bradesco card available for redemption that expire TODAY; avoid losing these points by redeeming your Visa Infinite Score right now
 - You (Banco do Bradesco Customers ) accumulate Livelo points every time you use your cards in the debit or credit function; it is quick and easy to accumulate.
   
-Red Banner Section:
+Banner Section:
 
 - Exchange your points for airline miles
 - Discounts of up to 35% on your card bill
@@ -279,7 +279,7 @@ The embedded domain used branding-related naming intended to resemble a legitima
 |---|---|
 | 137.184.34.4 | No malicious detections found |
 
-## Domain Reputation
+#### Domain Reputation
 
 | IOC | Result |
 |---|---|
@@ -361,15 +361,6 @@ Suspicious Email / Potential Phishing Attempt
 
 ---
 
-## MITRE ATT&CK Mapping
-
-| Technique | ID |
-|---|---|
-| Phishing | T1566 |
-| Spearphishing Link | T1566.002 |
-| Masquerading | T1036 |
-
----
 
 ## Analyst Notes
 
